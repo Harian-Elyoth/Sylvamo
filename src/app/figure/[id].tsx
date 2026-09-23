@@ -1,10 +1,10 @@
-import { Image } from 'expo-image';
 import { Link, Stack, router, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { ScrollView, StyleSheet, Switch, View } from 'react-native';
 
 import { Button } from '@/components/button';
 import { Chip } from '@/components/chip';
+import { FigureThumb } from '@/components/figure-thumb';
 import { Card, Field, Input } from '@/components/form';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
@@ -27,6 +27,7 @@ export default function FigureScreen() {
   const index = useCatalog();
   const entry = useCollection((s) => s.entries[id]);
   const { toggleOwned, toggleWishlist, updateEntry, removeCustomFigure } = useCollection.getState();
+  const [photoSize, setPhotoSize] = useState(0);
   const [price, setPrice] = useState(entry?.pricePaid?.toString().replace('.', ',') ?? '');
 
   const figure = index.figuresById.get(id);
@@ -107,16 +108,23 @@ export default function FigureScreen() {
         </Card>
 
         <Card>
-          <ThemedText type="smallBold">Ma photo</ThemedText>
-          {entry?.photoUri ? (
-            <Image source={{ uri: entry.photoUri }} style={styles.photo} contentFit="cover" />
-          ) : (
-            <View style={[styles.photo, styles.placeholder, { backgroundColor: theme.backgroundSelected }]}>
-              <ThemedText type="small" themeColor="textSecondary">
-                Aucune photo
-              </ThemedText>
-            </View>
-          )}
+          <ThemedText type="smallBold">Photo</ThemedText>
+          <View style={styles.photoBox} onLayout={(e) => setPhotoSize(e.nativeEvent.layout.width)}>
+            {photoSize ? (
+              <FigureThumb
+                sources={[entry?.photoUri, figure.image, set?.image]}
+                species={figure.species ?? set?.species}
+                size={photoSize}
+              />
+            ) : null}
+          </View>
+          <ThemedText type="small" themeColor="textSecondary">
+            {entry?.photoUri
+              ? 'Ta photo'
+              : figure.image || set?.image
+                ? 'Photo du catalogue — ajoute la tienne pour la remplacer'
+                : 'Pas encore de photo dans le catalogue — ajoute la tienne !'}
+          </ThemedText>
           <View style={styles.buttons}>
             <Button label="Prendre une photo" onPress={() => choosePhoto('camera')} />
             <Button label="Galerie" onPress={() => choosePhoto('library')} />
@@ -196,8 +204,7 @@ const styles = StyleSheet.create({
   missing: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: Spacing.four },
   title: { fontSize: 26, lineHeight: 32, fontWeight: 700 },
   switchRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
-  photo: { width: '100%', aspectRatio: 1, borderRadius: 12 },
-  placeholder: { alignItems: 'center', justifyContent: 'center' },
+  photoBox: { width: '100%', aspectRatio: 1 },
   buttons: { flexDirection: 'row', gap: Spacing.two },
   chips: { flexDirection: 'row', flexWrap: 'wrap', gap: Spacing.two },
   infoRow: { flexDirection: 'row', justifyContent: 'space-between', gap: Spacing.three },

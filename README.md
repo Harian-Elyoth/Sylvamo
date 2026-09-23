@@ -34,8 +34,9 @@ la date d'achat et des notes. La fiche d'un set permet de tout cocher d'un coup.
 Le catalogue embarqué dans l'app est `assets/catalog.json`. Il est généré par `scripts/build-catalog.mjs` :
 
 ```bash
-npm run build:catalog        # à partir de data/seed.json uniquement
-npm run build:catalog:wiki   # + les pages du Sylvanian Families Wiki (Fandom, CC BY-SA)
+npm run build:catalog          # à partir de data/seed.json uniquement
+npm run build:catalog:images   # + les photos du wiki pour les sets déjà présents
+npm run build:catalog:wiki     # + les sets du Sylvanian Families Wiki (Fandom, CC BY-SA) et leurs photos
 node scripts/build-catalog.mjs --wiki --category="Baby Collection:babies"   # une autre catégorie du wiki
 ```
 
@@ -47,7 +48,13 @@ node scripts/build-catalog.mjs --wiki --category="Baby Collection:babies"   # un
 - Les identifiants des figurines sont dérivés des noms (`chocolate-rabbit-family--pere`). Ta collection
   est enregistrée sous ces identifiants : un set déjà présent n'est donc jamais remplacé par le wiki,
   seulement enrichi (référence, année).
-- Aucune image officielle n'est incluse. Les photos sont les tiennes.
+- **Photos** : `--images` et `--wiki` récupèrent la vignette de la page du wiki de chaque set (et de chaque
+  personnage quand il a sa page). L'app ne contient pas les images : elle garde leur adresse, les charge
+  à l'affichage et les met en cache. On peut aussi mettre une URL à la main dans `data/seed.json`
+  (`"image": "https://…"` sur un set, ou `{ "name": "Père", "image": "https://…" }` dans `figures`).
+- Ordre d'affichage : ta photo, sinon la photo du catalogue, sinon une vignette illustrée (emoji de
+  l'espèce sur fond coloré). Ces images appartiennent à leurs auteurs : à vérifier avant de publier l'app
+  sur un store.
 
 ## Développement
 

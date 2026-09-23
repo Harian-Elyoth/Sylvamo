@@ -51,7 +51,8 @@
     "typecheck": "tsc --noEmit",
     "test": "jest && node --test scripts/*.test.mjs",
     "build:catalog": "node scripts/build-catalog.mjs",
-    "build:catalog:wiki": "node scripts/build-catalog.mjs --wiki"
+    "build:catalog:wiki": "node scripts/build-catalog.mjs --wiki",
+    "build:catalog:images": "node scripts/build-catalog.mjs --images"
   },
   "private": true,
   "jest": {

@@ -4,6 +4,7 @@ import { ScrollView, StyleSheet, View } from 'react-native';
 
 import { Button } from '@/components/button';
 import { FigureRow } from '@/components/figure-row';
+import { FigureThumb } from '@/components/figure-thumb';
 import { Progress } from '@/components/progress';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
@@ -43,6 +44,7 @@ export default function SetScreen() {
       <Stack.Screen options={{ title: set.name }} />
       <ScrollView contentContainerStyle={styles.content}>
         <View style={styles.header}>
+          <FigureThumb sources={[set.image]} species={set.species} size={180} style={styles.image} />
           <ThemedText style={styles.title}>{set.name}</ThemedText>
           <ThemedText type="small" themeColor="textSecondary">
             {meta.join(' · ')}
@@ -65,6 +67,7 @@ export default function SetScreen() {
 const styles = StyleSheet.create({
   content: { paddingBottom: Spacing.six, width: '100%', maxWidth: MaxContentWidth, alignSelf: 'center' },
   header: { padding: Spacing.three, gap: Spacing.two },
+  image: { alignSelf: 'center', marginBottom: Spacing.two },
   title: { fontSize: 26, lineHeight: 32, fontWeight: 700 },
   missing: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: Spacing.four },
 });

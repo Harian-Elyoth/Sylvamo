@@ -12,6 +12,8 @@ export type FigureSet = {
   collectionId: string;
   species?: string;
   year?: number;
+  /** URL d'une photo du set (hébergée sur le wiki, chargée à l'affichage). */
+  image?: string;
   custom?: boolean;
 };
 
@@ -21,6 +23,7 @@ export type Figure = {
   name: string;
   role?: string;
   species?: string;
+  image?: string;
   custom?: boolean;
 };
 

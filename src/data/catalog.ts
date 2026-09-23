@@ -1,5 +1,3 @@
-import { useMemo } from 'react';
-
 import catalogJson from '@/assets/catalog.json';
 import { buildIndex, normalize, type CatalogIndex } from '@/lib/filter';
 import { useCollection } from '@/store/collection';
@@ -33,7 +31,14 @@ export function mergeCatalog(catalog: Catalog, custom: CustomFigure[]): CatalogI
   return buildIndex(catalog.collections, [...catalog.sets, ...sets.values()], [...catalog.figures, ...figures]);
 }
 
+// Partagé entre tous les composants : chaque ligne de liste peut appeler useCatalog sans coût.
+let cache: { custom: CustomFigure[]; index: CatalogIndex } | null = null;
+
+function indexFor(custom: CustomFigure[]): CatalogIndex {
+  if (cache?.custom !== custom) cache = { custom, index: mergeCatalog(baseCatalog, custom) };
+  return cache.index;
+}
+
 export function useCatalog(): CatalogIndex {
-  const custom = useCollection((s) => s.customFigures);
-  return useMemo(() => mergeCatalog(baseCatalog, custom), [custom]);
+  return indexFor(useCollection((s) => s.customFigures));
 }

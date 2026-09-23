@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 
-import { parseMembers, parseWikiPage, slugify, validate } from './build-catalog.mjs';
+import { extractPageImages, parseMembers, parseWikiPage, slugify, validate } from './build-catalog.mjs';
 
 test('slugify builds stable ascii ids', () => {
   assert.equal(slugify('Famille Lapin Chocolat'), 'famille-lapin-chocolat');
@@ -26,7 +26,11 @@ Some intro.
     ref: '5655',
     year: 2019,
     species: 'Rabbit',
-    members: ['Frasier', 'Kathryn', 'Freya Chocolate'],
+    members: [
+      { name: 'Frasier', title: 'Frasier Chocolate' },
+      { name: 'Kathryn', title: undefined },
+      { name: 'Freya Chocolate', title: 'Freya Chocolate' },
+    ],
   });
   assert.deepEqual(parseMembers('no section'), []);
 });
@@ -44,4 +48,20 @@ test('validate reports duplicates and dangling references', () => {
     ],
   });
   assert.equal(errors.length, 4);
+});
+
+test('extractPageImages maps requested titles to thumbnails through normalization and redirects', () => {
+  const images = extractPageImages({
+    query: {
+      normalized: [{ from: 'chocolate Rabbit Family', to: 'Chocolate Rabbit Family' }],
+      redirects: [{ from: 'Chocolate Rabbit Family', to: 'Chocolate Rabbit Family (UK)' }],
+      pages: [
+        { title: 'Chocolate Rabbit Family (UK)', thumbnail: { source: 'https://img/choco.png' } },
+        { title: 'Hedgehog Family' },
+      ],
+    },
+  });
+  assert.equal(images.get('chocolate Rabbit Family'), 'https://img/choco.png');
+  assert.equal(images.get('Chocolate Rabbit Family'), 'https://img/choco.png');
+  assert.equal(images.has('Hedgehog Family'), false);
 });
