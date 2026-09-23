@@ -1,0 +1,546 @@
+{
+  "collections": [
+    {
+      "id": "families",
+      "name": "Familles"
+    },
+    {
+      "id": "babies",
+      "name": "Bébés"
+    },
+    {
+      "id": "twins",
+      "name": "Jumeaux"
+    },
+    {
+      "id": "friends",
+      "name": "Amis & ensembles"
+    },
+    {
+      "id": "blind-bags",
+      "name": "Sachets surprise"
+    },
+    {
+      "id": "town",
+      "name": "Town Series"
+    },
+    {
+      "id": "other",
+      "name": "Autres"
+    }
+  ],
+  "sets": [
+    {
+      "nameEn": "Grey Rabbit Family",
+      "name": "Famille Lapin Gris",
+      "species": "Lapin",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ],
+      "year": 1985
+    },
+    {
+      "nameEn": "Brown Bear Family",
+      "name": "Famille Ours Brun",
+      "species": "Ours",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ],
+      "year": 1985
+    },
+    {
+      "nameEn": "Brown Rabbit Family",
+      "name": "Famille Lapin Brun",
+      "species": "Lapin",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ],
+      "year": 1985
+    },
+    {
+      "nameEn": "Grey Bear Family",
+      "name": "Famille Ours Gris",
+      "species": "Ours",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ],
+      "year": 1985
+    },
+    {
+      "nameEn": "Grey Mouse Family",
+      "name": "Famille Souris Grise",
+      "species": "Souris",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ],
+      "year": 1985
+    },
+    {
+      "nameEn": "Mole Family",
+      "name": "Famille Taupe",
+      "species": "Taupe",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ],
+      "year": 1985
+    },
+    {
+      "nameEn": "Tanuki Family",
+      "name": "Famille Tanuki",
+      "species": "Tanuki",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ],
+      "year": 1985
+    },
+    {
+      "nameEn": "Fox Family",
+      "name": "Famille Renard",
+      "species": "Renard",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ],
+      "year": 1985
+    },
+    {
+      "nameEn": "Oakwood Squirrel Family",
+      "name": "Famille Écureuil des Chênes",
+      "species": "Écureuil",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Chocolate Rabbit Family",
+      "name": "Famille Lapin Chocolat",
+      "species": "Lapin",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Snow Rabbit Family",
+      "name": "Famille Lapin Neige",
+      "species": "Lapin",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Flora Rabbit Family",
+      "name": "Famille Lapin Flora",
+      "species": "Lapin",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Milk Rabbit Family",
+      "name": "Famille Lapin Lait",
+      "species": "Lapin",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Marshmallow Mouse Family",
+      "name": "Famille Souris Guimauve",
+      "species": "Souris",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Walnut Squirrel Family",
+      "name": "Famille Écureuil Noix",
+      "species": "Écureuil",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Hazelnut Chipmunk Family",
+      "name": "Famille Tamia Noisette",
+      "species": "Tamia",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Silk Cat Family",
+      "name": "Famille Chat Soie",
+      "species": "Chat",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Striped Cat Family",
+      "name": "Famille Chat Tigré",
+      "species": "Chat",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Tuxedo Cat Family",
+      "name": "Famille Chat Smoking",
+      "species": "Chat",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Persian Cat Family",
+      "name": "Famille Chat Persan",
+      "species": "Chat",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Maple Cat Family",
+      "name": "Famille Chat Érable",
+      "species": "Chat",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Chocolate Labrador Family",
+      "name": "Famille Labrador Chocolat",
+      "species": "Chien",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Dalmatian Family",
+      "name": "Famille Dalmatien",
+      "species": "Chien",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Yorkshire Terrier Family",
+      "name": "Famille Yorkshire",
+      "species": "Chien",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Husky Family",
+      "name": "Famille Husky",
+      "species": "Chien",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Toy Poodle Family",
+      "name": "Famille Caniche",
+      "species": "Chien",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Hedgehog Family",
+      "name": "Famille Hérisson",
+      "species": "Hérisson",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Koala Family",
+      "name": "Famille Koala",
+      "species": "Koala",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Kangaroo Family",
+      "name": "Famille Kangourou",
+      "species": "Kangourou",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Giant Panda Family",
+      "name": "Famille Panda",
+      "species": "Panda",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Red Panda Family",
+      "name": "Famille Panda Roux",
+      "species": "Panda roux",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Penguin Family",
+      "name": "Famille Pingouin",
+      "species": "Pingouin",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Beaver Family",
+      "name": "Famille Castor",
+      "species": "Castor",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Otter Family",
+      "name": "Famille Loutre",
+      "species": "Loutre",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Sheep Family",
+      "name": "Famille Mouton",
+      "species": "Mouton",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Goat Family",
+      "name": "Famille Chèvre",
+      "species": "Chèvre",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Pig Family",
+      "name": "Famille Cochon",
+      "species": "Cochon",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Reindeer Family",
+      "name": "Famille Renne",
+      "species": "Renne",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Elephant Family",
+      "name": "Famille Éléphant",
+      "species": "Éléphant",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Hamster Family",
+      "name": "Famille Hamster",
+      "species": "Hamster",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Guinea Pig Family",
+      "name": "Famille Cochon d'Inde",
+      "species": "Cochon d'Inde",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    },
+    {
+      "nameEn": "Pony Family",
+      "name": "Famille Poney",
+      "species": "Poney",
+      "collection": "families",
+      "figures": [
+        "Père",
+        "Mère",
+        "Frère",
+        "Sœur"
+      ]
+    }
+  ]
+}

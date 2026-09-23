@@ -1,0 +1,1351 @@
+{
+ "version": 1,
+ "generatedAt": "2026-09-23T11:58:06.895Z",
+ "sources": [
+  "Catalogue de départ Sylvamo (data/seed.json)"
+ ],
+ "collections": [
+  {
+   "id": "families",
+   "name": "Familles"
+  },
+  {
+   "id": "babies",
+   "name": "Bébés"
+  },
+  {
+   "id": "twins",
+   "name": "Jumeaux"
+  },
+  {
+   "id": "friends",
+   "name": "Amis & ensembles"
+  },
+  {
+   "id": "blind-bags",
+   "name": "Sachets surprise"
+  },
+  {
+   "id": "town",
+   "name": "Town Series"
+  },
+  {
+   "id": "other",
+   "name": "Autres"
+  }
+ ],
+ "sets": [
+  {
+   "id": "grey-rabbit-family",
+   "name": "Famille Lapin Gris",
+   "nameEn": "Grey Rabbit Family",
+   "collectionId": "families",
+   "species": "Lapin",
+   "year": 1985
+  },
+  {
+   "id": "brown-bear-family",
+   "name": "Famille Ours Brun",
+   "nameEn": "Brown Bear Family",
+   "collectionId": "families",
+   "species": "Ours",
+   "year": 1985
+  },
+  {
+   "id": "brown-rabbit-family",
+   "name": "Famille Lapin Brun",
+   "nameEn": "Brown Rabbit Family",
+   "collectionId": "families",
+   "species": "Lapin",
+   "year": 1985
+  },
+  {
+   "id": "grey-bear-family",
+   "name": "Famille Ours Gris",
+   "nameEn": "Grey Bear Family",
+   "collectionId": "families",
+   "species": "Ours",
+   "year": 1985
+  },
+  {
+   "id": "grey-mouse-family",
+   "name": "Famille Souris Grise",
+   "nameEn": "Grey Mouse Family",
+   "collectionId": "families",
+   "species": "Souris",
+   "year": 1985
+  },
+  {
+   "id": "mole-family",
+   "name": "Famille Taupe",
+   "nameEn": "Mole Family",
+   "collectionId": "families",
+   "species": "Taupe",
+   "year": 1985
+  },
+  {
+   "id": "tanuki-family",
+   "name": "Famille Tanuki",
+   "nameEn": "Tanuki Family",
+   "collectionId": "families",
+   "species": "Tanuki",
+   "year": 1985
+  },
+  {
+   "id": "fox-family",
+   "name": "Famille Renard",
+   "nameEn": "Fox Family",
+   "collectionId": "families",
+   "species": "Renard",
+   "year": 1985
+  },
+  {
+   "id": "oakwood-squirrel-family",
+   "name": "Famille Écureuil des Chênes",
+   "nameEn": "Oakwood Squirrel Family",
+   "collectionId": "families",
+   "species": "Écureuil"
+  },
+  {
+   "id": "chocolate-rabbit-family",
+   "name": "Famille Lapin Chocolat",
+   "nameEn": "Chocolate Rabbit Family",
+   "collectionId": "families",
+   "species": "Lapin"
+  },
+  {
+   "id": "snow-rabbit-family",
+   "name": "Famille Lapin Neige",
+   "nameEn": "Snow Rabbit Family",
+   "collectionId": "families",
+   "species": "Lapin"
+  },
+  {
+   "id": "flora-rabbit-family",
+   "name": "Famille Lapin Flora",
+   "nameEn": "Flora Rabbit Family",
+   "collectionId": "families",
+   "species": "Lapin"
+  },
+  {
+   "id": "milk-rabbit-family",
+   "name": "Famille Lapin Lait",
+   "nameEn": "Milk Rabbit Family",
+   "collectionId": "families",
+   "species": "Lapin"
+  },
+  {
+   "id": "marshmallow-mouse-family",
+   "name": "Famille Souris Guimauve",
+   "nameEn": "Marshmallow Mouse Family",
+   "collectionId": "families",
+   "species": "Souris"
+  },
+  {
+   "id": "walnut-squirrel-family",
+   "name": "Famille Écureuil Noix",
+   "nameEn": "Walnut Squirrel Family",
+   "collectionId": "families",
+   "species": "Écureuil"
+  },
+  {
+   "id": "hazelnut-chipmunk-family",
+   "name": "Famille Tamia Noisette",
+   "nameEn": "Hazelnut Chipmunk Family",
+   "collectionId": "families",
+   "species": "Tamia"
+  },
+  {
+   "id": "silk-cat-family",
+   "name": "Famille Chat Soie",
+   "nameEn": "Silk Cat Family",
+   "collectionId": "families",
+   "species": "Chat"
+  },
+  {
+   "id": "striped-cat-family",
+   "name": "Famille Chat Tigré",
+   "nameEn": "Striped Cat Family",
+   "collectionId": "families",
+   "species": "Chat"
+  },
+  {
+   "id": "tuxedo-cat-family",
+   "name": "Famille Chat Smoking",
+   "nameEn": "Tuxedo Cat Family",
+   "collectionId": "families",
+   "species": "Chat"
+  },
+  {
+   "id": "persian-cat-family",
+   "name": "Famille Chat Persan",
+   "nameEn": "Persian Cat Family",
+   "collectionId": "families",
+   "species": "Chat"
+  },
+  {
+   "id": "maple-cat-family",
+   "name": "Famille Chat Érable",
+   "nameEn": "Maple Cat Family",
+   "collectionId": "families",
+   "species": "Chat"
+  },
+  {
+   "id": "chocolate-labrador-family",
+   "name": "Famille Labrador Chocolat",
+   "nameEn": "Chocolate Labrador Family",
+   "collectionId": "families",
+   "species": "Chien"
+  },
+  {
+   "id": "dalmatian-family",
+   "name": "Famille Dalmatien",
+   "nameEn": "Dalmatian Family",
+   "collectionId": "families",
+   "species": "Chien"
+  },
+  {
+   "id": "yorkshire-terrier-family",
+   "name": "Famille Yorkshire",
+   "nameEn": "Yorkshire Terrier Family",
+   "collectionId": "families",
+   "species": "Chien"
+  },
+  {
+   "id": "husky-family",
+   "name": "Famille Husky",
+   "nameEn": "Husky Family",
+   "collectionId": "families",
+   "species": "Chien"
+  },
+  {
+   "id": "toy-poodle-family",
+   "name": "Famille Caniche",
+   "nameEn": "Toy Poodle Family",
+   "collectionId": "families",
+   "species": "Chien"
+  },
+  {
+   "id": "hedgehog-family",
+   "name": "Famille Hérisson",
+   "nameEn": "Hedgehog Family",
+   "collectionId": "families",
+   "species": "Hérisson"
+  },
+  {
+   "id": "koala-family",
+   "name": "Famille Koala",
+   "nameEn": "Koala Family",
+   "collectionId": "families",
+   "species": "Koala"
+  },
+  {
+   "id": "kangaroo-family",
+   "name": "Famille Kangourou",
+   "nameEn": "Kangaroo Family",
+   "collectionId": "families",
+   "species": "Kangourou"
+  },
+  {
+   "id": "giant-panda-family",
+   "name": "Famille Panda",
+   "nameEn": "Giant Panda Family",
+   "collectionId": "families",
+   "species": "Panda"
+  },
+  {
+   "id": "red-panda-family",
+   "name": "Famille Panda Roux",
+   "nameEn": "Red Panda Family",
+   "collectionId": "families",
+   "species": "Panda roux"
+  },
+  {
+   "id": "penguin-family",
+   "name": "Famille Pingouin",
+   "nameEn": "Penguin Family",
+   "collectionId": "families",
+   "species": "Pingouin"
+  },
+  {
+   "id": "beaver-family",
+   "name": "Famille Castor",
+   "nameEn": "Beaver Family",
+   "collectionId": "families",
+   "species": "Castor"
+  },
+  {
+   "id": "otter-family",
+   "name": "Famille Loutre",
+   "nameEn": "Otter Family",
+   "collectionId": "families",
+   "species": "Loutre"
+  },
+  {
+   "id": "sheep-family",
+   "name": "Famille Mouton",
+   "nameEn": "Sheep Family",
+   "collectionId": "families",
+   "species": "Mouton"
+  },
+  {
+   "id": "goat-family",
+   "name": "Famille Chèvre",
+   "nameEn": "Goat Family",
+   "collectionId": "families",
+   "species": "Chèvre"
+  },
+  {
+   "id": "pig-family",
+   "name": "Famille Cochon",
+   "nameEn": "Pig Family",
+   "collectionId": "families",
+   "species": "Cochon"
+  },
+  {
+   "id": "reindeer-family",
+   "name": "Famille Renne",
+   "nameEn": "Reindeer Family",
+   "collectionId": "families",
+   "species": "Renne"
+  },
+  {
+   "id": "elephant-family",
+   "name": "Famille Éléphant",
+   "nameEn": "Elephant Family",
+   "collectionId": "families",
+   "species": "Éléphant"
+  },
+  {
+   "id": "hamster-family",
+   "name": "Famille Hamster",
+   "nameEn": "Hamster Family",
+   "collectionId": "families",
+   "species": "Hamster"
+  },
+  {
+   "id": "guinea-pig-family",
+   "name": "Famille Cochon d'Inde",
+   "nameEn": "Guinea Pig Family",
+   "collectionId": "families",
+   "species": "Cochon d'Inde"
+  },
+  {
+   "id": "pony-family",
+   "name": "Famille Poney",
+   "nameEn": "Pony Family",
+   "collectionId": "families",
+   "species": "Poney"
+  }
+ ],
+ "figures": [
+  {
+   "id": "grey-rabbit-family--pere",
+   "setId": "grey-rabbit-family",
+   "name": "Père",
+   "species": "Lapin"
+  },
+  {
+   "id": "grey-rabbit-family--mere",
+   "setId": "grey-rabbit-family",
+   "name": "Mère",
+   "species": "Lapin"
+  },
+  {
+   "id": "grey-rabbit-family--frere",
+   "setId": "grey-rabbit-family",
+   "name": "Frère",
+   "species": "Lapin"
+  },
+  {
+   "id": "grey-rabbit-family--s-ur",
+   "setId": "grey-rabbit-family",
+   "name": "Sœur",
+   "species": "Lapin"
+  },
+  {
+   "id": "brown-bear-family--pere",
+   "setId": "brown-bear-family",
+   "name": "Père",
+   "species": "Ours"
+  },
+  {
+   "id": "brown-bear-family--mere",
+   "setId": "brown-bear-family",
+   "name": "Mère",
+   "species": "Ours"
+  },
+  {
+   "id": "brown-bear-family--frere",
+   "setId": "brown-bear-family",
+   "name": "Frère",
+   "species": "Ours"
+  },
+  {
+   "id": "brown-bear-family--s-ur",
+   "setId": "brown-bear-family",
+   "name": "Sœur",
+   "species": "Ours"
+  },
+  {
+   "id": "brown-rabbit-family--pere",
+   "setId": "brown-rabbit-family",
+   "name": "Père",
+   "species": "Lapin"
+  },
+  {
+   "id": "brown-rabbit-family--mere",
+   "setId": "brown-rabbit-family",
+   "name": "Mère",
+   "species": "Lapin"
+  },
+  {
+   "id": "brown-rabbit-family--frere",
+   "setId": "brown-rabbit-family",
+   "name": "Frère",
+   "species": "Lapin"
+  },
+  {
+   "id": "brown-rabbit-family--s-ur",
+   "setId": "brown-rabbit-family",
+   "name": "Sœur",
+   "species": "Lapin"
+  },
+  {
+   "id": "grey-bear-family--pere",
+   "setId": "grey-bear-family",
+   "name": "Père",
+   "species": "Ours"
+  },
+  {
+   "id": "grey-bear-family--mere",
+   "setId": "grey-bear-family",
+   "name": "Mère",
+   "species": "Ours"
+  },
+  {
+   "id": "grey-bear-family--frere",
+   "setId": "grey-bear-family",
+   "name": "Frère",
+   "species": "Ours"
+  },
+  {
+   "id": "grey-bear-family--s-ur",
+   "setId": "grey-bear-family",
+   "name": "Sœur",
+   "species": "Ours"
+  },
+  {
+   "id": "grey-mouse-family--pere",
+   "setId": "grey-mouse-family",
+   "name": "Père",
+   "species": "Souris"
+  },
+  {
+   "id": "grey-mouse-family--mere",
+   "setId": "grey-mouse-family",
+   "name": "Mère",
+   "species": "Souris"
+  },
+  {
+   "id": "grey-mouse-family--frere",
+   "setId": "grey-mouse-family",
+   "name": "Frère",
+   "species": "Souris"
+  },
+  {
+   "id": "grey-mouse-family--s-ur",
+   "setId": "grey-mouse-family",
+   "name": "Sœur",
+   "species": "Souris"
+  },
+  {
+   "id": "mole-family--pere",
+   "setId": "mole-family",
+   "name": "Père",
+   "species": "Taupe"
+  },
+  {
+   "id": "mole-family--mere",
+   "setId": "mole-family",
+   "name": "Mère",
+   "species": "Taupe"
+  },
+  {
+   "id": "mole-family--frere",
+   "setId": "mole-family",
+   "name": "Frère",
+   "species": "Taupe"
+  },
+  {
+   "id": "mole-family--s-ur",
+   "setId": "mole-family",
+   "name": "Sœur",
+   "species": "Taupe"
+  },
+  {
+   "id": "tanuki-family--pere",
+   "setId": "tanuki-family",
+   "name": "Père",
+   "species": "Tanuki"
+  },
+  {
+   "id": "tanuki-family--mere",
+   "setId": "tanuki-family",
+   "name": "Mère",
+   "species": "Tanuki"
+  },
+  {
+   "id": "tanuki-family--frere",
+   "setId": "tanuki-family",
+   "name": "Frère",
+   "species": "Tanuki"
+  },
+  {
+   "id": "tanuki-family--s-ur",
+   "setId": "tanuki-family",
+   "name": "Sœur",
+   "species": "Tanuki"
+  },
+  {
+   "id": "fox-family--pere",
+   "setId": "fox-family",
+   "name": "Père",
+   "species": "Renard"
+  },
+  {
+   "id": "fox-family--mere",
+   "setId": "fox-family",
+   "name": "Mère",
+   "species": "Renard"
+  },
+  {
+   "id": "fox-family--frere",
+   "setId": "fox-family",
+   "name": "Frère",
+   "species": "Renard"
+  },
+  {
+   "id": "fox-family--s-ur",
+   "setId": "fox-family",
+   "name": "Sœur",
+   "species": "Renard"
+  },
+  {
+   "id": "oakwood-squirrel-family--pere",
+   "setId": "oakwood-squirrel-family",
+   "name": "Père",
+   "species": "Écureuil"
+  },
+  {
+   "id": "oakwood-squirrel-family--mere",
+   "setId": "oakwood-squirrel-family",
+   "name": "Mère",
+   "species": "Écureuil"
+  },
+  {
+   "id": "oakwood-squirrel-family--frere",
+   "setId": "oakwood-squirrel-family",
+   "name": "Frère",
+   "species": "Écureuil"
+  },
+  {
+   "id": "oakwood-squirrel-family--s-ur",
+   "setId": "oakwood-squirrel-family",
+   "name": "Sœur",
+   "species": "Écureuil"
+  },
+  {
+   "id": "chocolate-rabbit-family--pere",
+   "setId": "chocolate-rabbit-family",
+   "name": "Père",
+   "species": "Lapin"
+  },
+  {
+   "id": "chocolate-rabbit-family--mere",
+   "setId": "chocolate-rabbit-family",
+   "name": "Mère",
+   "species": "Lapin"
+  },
+  {
+   "id": "chocolate-rabbit-family--frere",
+   "setId": "chocolate-rabbit-family",
+   "name": "Frère",
+   "species": "Lapin"
+  },
+  {
+   "id": "chocolate-rabbit-family--s-ur",
+   "setId": "chocolate-rabbit-family",
+   "name": "Sœur",
+   "species": "Lapin"
+  },
+  {
+   "id": "snow-rabbit-family--pere",
+   "setId": "snow-rabbit-family",
+   "name": "Père",
+   "species": "Lapin"
+  },
+  {
+   "id": "snow-rabbit-family--mere",
+   "setId": "snow-rabbit-family",
+   "name": "Mère",
+   "species": "Lapin"
+  },
+  {
+   "id": "snow-rabbit-family--frere",
+   "setId": "snow-rabbit-family",
+   "name": "Frère",
+   "species": "Lapin"
+  },
+  {
+   "id": "snow-rabbit-family--s-ur",
+   "setId": "snow-rabbit-family",
+   "name": "Sœur",
+   "species": "Lapin"
+  },
+  {
+   "id": "flora-rabbit-family--pere",
+   "setId": "flora-rabbit-family",
+   "name": "Père",
+   "species": "Lapin"
+  },
+  {
+   "id": "flora-rabbit-family--mere",
+   "setId": "flora-rabbit-family",
+   "name": "Mère",
+   "species": "Lapin"
+  },
+  {
+   "id": "flora-rabbit-family--frere",
+   "setId": "flora-rabbit-family",
+   "name": "Frère",
+   "species": "Lapin"
+  },
+  {
+   "id": "flora-rabbit-family--s-ur",
+   "setId": "flora-rabbit-family",
+   "name": "Sœur",
+   "species": "Lapin"
+  },
+  {
+   "id": "milk-rabbit-family--pere",
+   "setId": "milk-rabbit-family",
+   "name": "Père",
+   "species": "Lapin"
+  },
+  {
+   "id": "milk-rabbit-family--mere",
+   "setId": "milk-rabbit-family",
+   "name": "Mère",
+   "species": "Lapin"
+  },
+  {
+   "id": "milk-rabbit-family--frere",
+   "setId": "milk-rabbit-family",
+   "name": "Frère",
+   "species": "Lapin"
+  },
+  {
+   "id": "milk-rabbit-family--s-ur",
+   "setId": "milk-rabbit-family",
+   "name": "Sœur",
+   "species": "Lapin"
+  },
+  {
+   "id": "marshmallow-mouse-family--pere",
+   "setId": "marshmallow-mouse-family",
+   "name": "Père",
+   "species": "Souris"
+  },
+  {
+   "id": "marshmallow-mouse-family--mere",
+   "setId": "marshmallow-mouse-family",
+   "name": "Mère",
+   "species": "Souris"
+  },
+  {
+   "id": "marshmallow-mouse-family--frere",
+   "setId": "marshmallow-mouse-family",
+   "name": "Frère",
+   "species": "Souris"
+  },
+  {
+   "id": "marshmallow-mouse-family--s-ur",
+   "setId": "marshmallow-mouse-family",
+   "name": "Sœur",
+   "species": "Souris"
+  },
+  {
+   "id": "walnut-squirrel-family--pere",
+   "setId": "walnut-squirrel-family",
+   "name": "Père",
+   "species": "Écureuil"
+  },
+  {
+   "id": "walnut-squirrel-family--mere",
+   "setId": "walnut-squirrel-family",
+   "name": "Mère",
+   "species": "Écureuil"
+  },
+  {
+   "id": "walnut-squirrel-family--frere",
+   "setId": "walnut-squirrel-family",
+   "name": "Frère",
+   "species": "Écureuil"
+  },
+  {
+   "id": "walnut-squirrel-family--s-ur",
+   "setId": "walnut-squirrel-family",
+   "name": "Sœur",
+   "species": "Écureuil"
+  },
+  {
+   "id": "hazelnut-chipmunk-family--pere",
+   "setId": "hazelnut-chipmunk-family",
+   "name": "Père",
+   "species": "Tamia"
+  },
+  {
+   "id": "hazelnut-chipmunk-family--mere",
+   "setId": "hazelnut-chipmunk-family",
+   "name": "Mère",
+   "species": "Tamia"
+  },
+  {
+   "id": "hazelnut-chipmunk-family--frere",
+   "setId": "hazelnut-chipmunk-family",
+   "name": "Frère",
+   "species": "Tamia"
+  },
+  {
+   "id": "hazelnut-chipmunk-family--s-ur",
+   "setId": "hazelnut-chipmunk-family",
+   "name": "Sœur",
+   "species": "Tamia"
+  },
+  {
+   "id": "silk-cat-family--pere",
+   "setId": "silk-cat-family",
+   "name": "Père",
+   "species": "Chat"
+  },
+  {
+   "id": "silk-cat-family--mere",
+   "setId": "silk-cat-family",
+   "name": "Mère",
+   "species": "Chat"
+  },
+  {
+   "id": "silk-cat-family--frere",
+   "setId": "silk-cat-family",
+   "name": "Frère",
+   "species": "Chat"
+  },
+  {
+   "id": "silk-cat-family--s-ur",
+   "setId": "silk-cat-family",
+   "name": "Sœur",
+   "species": "Chat"
+  },
+  {
+   "id": "striped-cat-family--pere",
+   "setId": "striped-cat-family",
+   "name": "Père",
+   "species": "Chat"
+  },
+  {
+   "id": "striped-cat-family--mere",
+   "setId": "striped-cat-family",
+   "name": "Mère",
+   "species": "Chat"
+  },
+  {
+   "id": "striped-cat-family--frere",
+   "setId": "striped-cat-family",
+   "name": "Frère",
+   "species": "Chat"
+  },
+  {
+   "id": "striped-cat-family--s-ur",
+   "setId": "striped-cat-family",
+   "name": "Sœur",
+   "species": "Chat"
+  },
+  {
+   "id": "tuxedo-cat-family--pere",
+   "setId": "tuxedo-cat-family",
+   "name": "Père",
+   "species": "Chat"
+  },
+  {
+   "id": "tuxedo-cat-family--mere",
+   "setId": "tuxedo-cat-family",
+   "name": "Mère",
+   "species": "Chat"
+  },
+  {
+   "id": "tuxedo-cat-family--frere",
+   "setId": "tuxedo-cat-family",
+   "name": "Frère",
+   "species": "Chat"
+  },
+  {
+   "id": "tuxedo-cat-family--s-ur",
+   "setId": "tuxedo-cat-family",
+   "name": "Sœur",
+   "species": "Chat"
+  },
+  {
+   "id": "persian-cat-family--pere",
+   "setId": "persian-cat-family",
+   "name": "Père",
+   "species": "Chat"
+  },
+  {
+   "id": "persian-cat-family--mere",
+   "setId": "persian-cat-family",
+   "name": "Mère",
+   "species": "Chat"
+  },
+  {
+   "id": "persian-cat-family--frere",
+   "setId": "persian-cat-family",
+   "name": "Frère",
+   "species": "Chat"
+  },
+  {
+   "id": "persian-cat-family--s-ur",
+   "setId": "persian-cat-family",
+   "name": "Sœur",
+   "species": "Chat"
+  },
+  {
+   "id": "maple-cat-family--pere",
+   "setId": "maple-cat-family",
+   "name": "Père",
+   "species": "Chat"
+  },
+  {
+   "id": "maple-cat-family--mere",
+   "setId": "maple-cat-family",
+   "name": "Mère",
+   "species": "Chat"
+  },
+  {
+   "id": "maple-cat-family--frere",
+   "setId": "maple-cat-family",
+   "name": "Frère",
+   "species": "Chat"
+  },
+  {
+   "id": "maple-cat-family--s-ur",
+   "setId": "maple-cat-family",
+   "name": "Sœur",
+   "species": "Chat"
+  },
+  {
+   "id": "chocolate-labrador-family--pere",
+   "setId": "chocolate-labrador-family",
+   "name": "Père",
+   "species": "Chien"
+  },
+  {
+   "id": "chocolate-labrador-family--mere",
+   "setId": "chocolate-labrador-family",
+   "name": "Mère",
+   "species": "Chien"
+  },
+  {
+   "id": "chocolate-labrador-family--frere",
+   "setId": "chocolate-labrador-family",
+   "name": "Frère",
+   "species": "Chien"
+  },
+  {
+   "id": "chocolate-labrador-family--s-ur",
+   "setId": "chocolate-labrador-family",
+   "name": "Sœur",
+   "species": "Chien"
+  },
+  {
+   "id": "dalmatian-family--pere",
+   "setId": "dalmatian-family",
+   "name": "Père",
+   "species": "Chien"
+  },
+  {
+   "id": "dalmatian-family--mere",
+   "setId": "dalmatian-family",
+   "name": "Mère",
+   "species": "Chien"
+  },
+  {
+   "id": "dalmatian-family--frere",
+   "setId": "dalmatian-family",
+   "name": "Frère",
+   "species": "Chien"
+  },
+  {
+   "id": "dalmatian-family--s-ur",
+   "setId": "dalmatian-family",
+   "name": "Sœur",
+   "species": "Chien"
+  },
+  {
+   "id": "yorkshire-terrier-family--pere",
+   "setId": "yorkshire-terrier-family",
+   "name": "Père",
+   "species": "Chien"
+  },
+  {
+   "id": "yorkshire-terrier-family--mere",
+   "setId": "yorkshire-terrier-family",
+   "name": "Mère",
+   "species": "Chien"
+  },
+  {
+   "id": "yorkshire-terrier-family--frere",
+   "setId": "yorkshire-terrier-family",
+   "name": "Frère",
+   "species": "Chien"
+  },
+  {
+   "id": "yorkshire-terrier-family--s-ur",
+   "setId": "yorkshire-terrier-family",
+   "name": "Sœur",
+   "species": "Chien"
+  },
+  {
+   "id": "husky-family--pere",
+   "setId": "husky-family",
+   "name": "Père",
+   "species": "Chien"
+  },
+  {
+   "id": "husky-family--mere",
+   "setId": "husky-family",
+   "name": "Mère",
+   "species": "Chien"
+  },
+  {
+   "id": "husky-family--frere",
+   "setId": "husky-family",
+   "name": "Frère",
+   "species": "Chien"
+  },
+  {
+   "id": "husky-family--s-ur",
+   "setId": "husky-family",
+   "name": "Sœur",
+   "species": "Chien"
+  },
+  {
+   "id": "toy-poodle-family--pere",
+   "setId": "toy-poodle-family",
+   "name": "Père",
+   "species": "Chien"
+  },
+  {
+   "id": "toy-poodle-family--mere",
+   "setId": "toy-poodle-family",
+   "name": "Mère",
+   "species": "Chien"
+  },
+  {
+   "id": "toy-poodle-family--frere",
+   "setId": "toy-poodle-family",
+   "name": "Frère",
+   "species": "Chien"
+  },
+  {
+   "id": "toy-poodle-family--s-ur",
+   "setId": "toy-poodle-family",
+   "name": "Sœur",
+   "species": "Chien"
+  },
+  {
+   "id": "hedgehog-family--pere",
+   "setId": "hedgehog-family",
+   "name": "Père",
+   "species": "Hérisson"
+  },
+  {
+   "id": "hedgehog-family--mere",
+   "setId": "hedgehog-family",
+   "name": "Mère",
+   "species": "Hérisson"
+  },
+  {
+   "id": "hedgehog-family--frere",
+   "setId": "hedgehog-family",
+   "name": "Frère",
+   "species": "Hérisson"
+  },
+  {
+   "id": "hedgehog-family--s-ur",
+   "setId": "hedgehog-family",
+   "name": "Sœur",
+   "species": "Hérisson"
+  },
+  {
+   "id": "koala-family--pere",
+   "setId": "koala-family",
+   "name": "Père",
+   "species": "Koala"
+  },
+  {
+   "id": "koala-family--mere",
+   "setId": "koala-family",
+   "name": "Mère",
+   "species": "Koala"
+  },
+  {
+   "id": "koala-family--frere",
+   "setId": "koala-family",
+   "name": "Frère",
+   "species": "Koala"
+  },
+  {
+   "id": "koala-family--s-ur",
+   "setId": "koala-family",
+   "name": "Sœur",
+   "species": "Koala"
+  },
+  {
+   "id": "kangaroo-family--pere",
+   "setId": "kangaroo-family",
+   "name": "Père",
+   "species": "Kangourou"
+  },
+  {
+   "id": "kangaroo-family--mere",
+   "setId": "kangaroo-family",
+   "name": "Mère",
+   "species": "Kangourou"
+  },
+  {
+   "id": "kangaroo-family--frere",
+   "setId": "kangaroo-family",
+   "name": "Frère",
+   "species": "Kangourou"
+  },
+  {
+   "id": "kangaroo-family--s-ur",
+   "setId": "kangaroo-family",
+   "name": "Sœur",
+   "species": "Kangourou"
+  },
+  {
+   "id": "giant-panda-family--pere",
+   "setId": "giant-panda-family",
+   "name": "Père",
+   "species": "Panda"
+  },
+  {
+   "id": "giant-panda-family--mere",
+   "setId": "giant-panda-family",
+   "name": "Mère",
+   "species": "Panda"
+  },
+  {
+   "id": "giant-panda-family--frere",
+   "setId": "giant-panda-family",
+   "name": "Frère",
+   "species": "Panda"
+  },
+  {
+   "id": "giant-panda-family--s-ur",
+   "setId": "giant-panda-family",
+   "name": "Sœur",
+   "species": "Panda"
+  },
+  {
+   "id": "red-panda-family--pere",
+   "setId": "red-panda-family",
+   "name": "Père",
+   "species": "Panda roux"
+  },
+  {
+   "id": "red-panda-family--mere",
+   "setId": "red-panda-family",
+   "name": "Mère",
+   "species": "Panda roux"
+  },
+  {
+   "id": "red-panda-family--frere",
+   "setId": "red-panda-family",
+   "name": "Frère",
+   "species": "Panda roux"
+  },
+  {
+   "id": "red-panda-family--s-ur",
+   "setId": "red-panda-family",
+   "name": "Sœur",
+   "species": "Panda roux"
+  },
+  {
+   "id": "penguin-family--pere",
+   "setId": "penguin-family",
+   "name": "Père",
+   "species": "Pingouin"
+  },
+  {
+   "id": "penguin-family--mere",
+   "setId": "penguin-family",
+   "name": "Mère",
+   "species": "Pingouin"
+  },
+  {
+   "id": "penguin-family--frere",
+   "setId": "penguin-family",
+   "name": "Frère",
+   "species": "Pingouin"
+  },
+  {
+   "id": "penguin-family--s-ur",
+   "setId": "penguin-family",
+   "name": "Sœur",
+   "species": "Pingouin"
+  },
+  {
+   "id": "beaver-family--pere",
+   "setId": "beaver-family",
+   "name": "Père",
+   "species": "Castor"
+  },
+  {
+   "id": "beaver-family--mere",
+   "setId": "beaver-family",
+   "name": "Mère",
+   "species": "Castor"
+  },
+  {
+   "id": "beaver-family--frere",
+   "setId": "beaver-family",
+   "name": "Frère",
+   "species": "Castor"
+  },
+  {
+   "id": "beaver-family--s-ur",
+   "setId": "beaver-family",
+   "name": "Sœur",
+   "species": "Castor"
+  },
+  {
+   "id": "otter-family--pere",
+   "setId": "otter-family",
+   "name": "Père",
+   "species": "Loutre"
+  },
+  {
+   "id": "otter-family--mere",
+   "setId": "otter-family",
+   "name": "Mère",
+   "species": "Loutre"
+  },
+  {
+   "id": "otter-family--frere",
+   "setId": "otter-family",
+   "name": "Frère",
+   "species": "Loutre"
+  },
+  {
+   "id": "otter-family--s-ur",
+   "setId": "otter-family",
+   "name": "Sœur",
+   "species": "Loutre"
+  },
+  {
+   "id": "sheep-family--pere",
+   "setId": "sheep-family",
+   "name": "Père",
+   "species": "Mouton"
+  },
+  {
+   "id": "sheep-family--mere",
+   "setId": "sheep-family",
+   "name": "Mère",
+   "species": "Mouton"
+  },
+  {
+   "id": "sheep-family--frere",
+   "setId": "sheep-family",
+   "name": "Frère",
+   "species": "Mouton"
+  },
+  {
+   "id": "sheep-family--s-ur",
+   "setId": "sheep-family",
+   "name": "Sœur",
+   "species": "Mouton"
+  },
+  {
+   "id": "goat-family--pere",
+   "setId": "goat-family",
+   "name": "Père",
+   "species": "Chèvre"
+  },
+  {
+   "id": "goat-family--mere",
+   "setId": "goat-family",
+   "name": "Mère",
+   "species": "Chèvre"
+  },
+  {
+   "id": "goat-family--frere",
+   "setId": "goat-family",
+   "name": "Frère",
+   "species": "Chèvre"
+  },
+  {
+   "id": "goat-family--s-ur",
+   "setId": "goat-family",
+   "name": "Sœur",
+   "species": "Chèvre"
+  },
+  {
+   "id": "pig-family--pere",
+   "setId": "pig-family",
+   "name": "Père",
+   "species": "Cochon"
+  },
+  {
+   "id": "pig-family--mere",
+   "setId": "pig-family",
+   "name": "Mère",
+   "species": "Cochon"
+  },
+  {
+   "id": "pig-family--frere",
+   "setId": "pig-family",
+   "name": "Frère",
+   "species": "Cochon"
+  },
+  {
+   "id": "pig-family--s-ur",
+   "setId": "pig-family",
+   "name": "Sœur",
+   "species": "Cochon"
+  },
+  {
+   "id": "reindeer-family--pere",
+   "setId": "reindeer-family",
+   "name": "Père",
+   "species": "Renne"
+  },
+  {
+   "id": "reindeer-family--mere",
+   "setId": "reindeer-family",
+   "name": "Mère",
+   "species": "Renne"
+  },
+  {
+   "id": "reindeer-family--frere",
+   "setId": "reindeer-family",
+   "name": "Frère",
+   "species": "Renne"
+  },
+  {
+   "id": "reindeer-family--s-ur",
+   "setId": "reindeer-family",
+   "name": "Sœur",
+   "species": "Renne"
+  },
+  {
+   "id": "elephant-family--pere",
+   "setId": "elephant-family",
+   "name": "Père",
+   "species": "Éléphant"
+  },
+  {
+   "id": "elephant-family--mere",
+   "setId": "elephant-family",
+   "name": "Mère",
+   "species": "Éléphant"
+  },
+  {
+   "id": "elephant-family--frere",
+   "setId": "elephant-family",
+   "name": "Frère",
+   "species": "Éléphant"
+  },
+  {
+   "id": "elephant-family--s-ur",
+   "setId": "elephant-family",
+   "name": "Sœur",
+   "species": "Éléphant"
+  },
+  {
+   "id": "hamster-family--pere",
+   "setId": "hamster-family",
+   "name": "Père",
+   "species": "Hamster"
+  },
+  {
+   "id": "hamster-family--mere",
+   "setId": "hamster-family",
+   "name": "Mère",
+   "species": "Hamster"
+  },
+  {
+   "id": "hamster-family--frere",
+   "setId": "hamster-family",
+   "name": "Frère",
+   "species": "Hamster"
+  },
+  {
+   "id": "hamster-family--s-ur",
+   "setId": "hamster-family",
+   "name": "Sœur",
+   "species": "Hamster"
+  },
+  {
+   "id": "guinea-pig-family--pere",
+   "setId": "guinea-pig-family",
+   "name": "Père",
+   "species": "Cochon d'Inde"
+  },
+  {
+   "id": "guinea-pig-family--mere",
+   "setId": "guinea-pig-family",
+   "name": "Mère",
+   "species": "Cochon d'Inde"
+  },
+  {
+   "id": "guinea-pig-family--frere",
+   "setId": "guinea-pig-family",
+   "name": "Frère",
+   "species": "Cochon d'Inde"
+  },
+  {
+   "id": "guinea-pig-family--s-ur",
+   "setId": "guinea-pig-family",
+   "name": "Sœur",
+   "species": "Cochon d'Inde"
+  },
+  {
+   "id": "pony-family--pere",
+   "setId": "pony-family",
+   "name": "Père",
+   "species": "Poney"
+  },
+  {
+   "id": "pony-family--mere",
+   "setId": "pony-family",
+   "name": "Mère",
+   "species": "Poney"
+  },
+  {
+   "id": "pony-family--frere",
+   "setId": "pony-family",
+   "name": "Frère",
+   "species": "Poney"
+  },
+  {
+   "id": "pony-family--s-ur",
+   "setId": "pony-family",
+   "name": "Sœur",
+   "species": "Poney"
+  }
+ ]
+}
