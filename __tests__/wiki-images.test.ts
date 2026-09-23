@@ -34,7 +34,7 @@ test('requests made together are sent in one call and saved, found or not', asyn
       query: { pages: [{ title: 'Koala Family', thumbnail: { source: 'https://img/koala.png' } }, { title: 'Otter Family' }] },
     }),
   });
-  global.fetch = fetchMock;
+  globalThis.fetch = fetchMock as unknown as typeof fetch;
 
   requestWikiImage('Koala Family');
   requestWikiImage('Otter Family');
@@ -58,7 +58,7 @@ test('requests made together are sent in one call and saved, found or not', asyn
 
 test('a network error is not saved and is not retried during the session', async () => {
   const fetchMock = jest.fn().mockRejectedValue(new Error('offline'));
-  global.fetch = fetchMock;
+  globalThis.fetch = fetchMock as unknown as typeof fetch;
 
   requestWikiImage('Sheep Family');
   await flush();
