@@ -52,6 +52,11 @@ node scripts/build-catalog.mjs --wiki --category="Baby Collection:babies"   # un
   personnage quand il a sa page). L'app ne contient pas les images : elle garde leur adresse, les charge
   à l'affichage et les met en cache. On peut aussi mettre une URL à la main dans `data/seed.json`
   (`"image": "https://…"` sur un set, ou `{ "name": "Père", "image": "https://…" }` dans `figures`).
+- **Photos chargées par l'app** : pour un set sans photo dans le catalogue, l'app demande elle-même au wiki
+  (API MediaWiki, depuis le téléphone) la vignette de la page portant le nom anglais du set
+  (ex. « Chocolate Rabbit Family »). L'adresse est mémorisée (`src/lib/wiki-images.ts`) et l'image mise en
+  cache : il faut internet seulement la première fois. Si le wiki n'a pas de photo, on redemande une
+  semaine plus tard.
 - Ordre d'affichage : ta photo, sinon la photo du catalogue, sinon une vignette illustrée (emoji de
   l'espèce sur fond coloré). Ces images appartiennent à leurs auteurs : à vérifier avant de publier l'app
   sur un store.

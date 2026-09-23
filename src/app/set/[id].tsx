@@ -4,7 +4,7 @@ import { ScrollView, StyleSheet, View } from 'react-native';
 
 import { Button } from '@/components/button';
 import { FigureRow } from '@/components/figure-row';
-import { FigureThumb } from '@/components/figure-thumb';
+import { SetThumb } from '@/components/figure-thumb';
 import { Progress } from '@/components/progress';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
@@ -44,7 +44,7 @@ export default function SetScreen() {
       <Stack.Screen options={{ title: set.name }} />
       <ScrollView contentContainerStyle={styles.content}>
         <View style={styles.header}>
-          <FigureThumb sources={[set.image]} species={set.species} size={180} style={styles.image} />
+          <SetThumb set={set} size={180} style={styles.image} />
           <ThemedText style={styles.title}>{set.name}</ThemedText>
           <ThemedText type="small" themeColor="textSecondary">
             {meta.join(' · ')}

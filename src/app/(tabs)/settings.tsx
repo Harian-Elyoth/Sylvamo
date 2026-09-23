@@ -98,6 +98,10 @@ export default function SettingsScreen() {
             </ThemedText>
           ))}
           <ThemedText type="small" themeColor="textSecondary">
+            Les photos des sets sont chargées depuis le Sylvanian Families Wiki (sylvanianfamilies.fandom.com) et
+            restent la propriété de leurs auteurs. Il faut une connexion internet la première fois.
+          </ThemedText>
+          <ThemedText type="small" themeColor="textSecondary">
             Sylvamo est une application de fan, sans lien avec Epoch Co., Ltd. Sylvanian Families et Calico Critters
             sont des marques de leurs propriétaires respectifs.
           </ThemedText>

@@ -11,6 +11,7 @@ import { ThemedView } from '@/components/themed-view';
 import { MaxContentWidth, Spacing } from '@/constants/theme';
 import { useCatalog } from '@/data/catalog';
 import { useTheme } from '@/hooks/use-theme';
+import { useSetImage } from '@/lib/wiki-images';
 import { confirm, notify } from '@/lib/dialogs';
 import { deletePhoto, pickPhoto } from '@/lib/photos';
 import { useCollection } from '@/store/collection';
@@ -31,6 +32,7 @@ export default function FigureScreen() {
   const [price, setPrice] = useState(entry?.pricePaid?.toString().replace('.', ',') ?? '');
 
   const figure = index.figuresById.get(id);
+  const setImage = useSetImage(figure && index.setsById.get(figure.setId));
   if (!figure) {
     return (
       <ThemedView style={styles.missing}>
@@ -112,7 +114,7 @@ export default function FigureScreen() {
           <View style={styles.photoBox} onLayout={(e) => setPhotoSize(e.nativeEvent.layout.width)}>
             {photoSize ? (
               <FigureThumb
-                sources={[entry?.photoUri, figure.image, set?.image]}
+                sources={[entry?.photoUri, figure.image, setImage]}
                 species={figure.species ?? set?.species}
                 size={photoSize}
               />
@@ -121,7 +123,7 @@ export default function FigureScreen() {
           <ThemedText type="small" themeColor="textSecondary">
             {entry?.photoUri
               ? 'Ta photo'
-              : figure.image || set?.image
+              : figure.image || setImage
                 ? 'Photo du catalogue — ajoute la tienne pour la remplacer'
                 : 'Pas encore de photo dans le catalogue — ajoute la tienne !'}
           </ThemedText>

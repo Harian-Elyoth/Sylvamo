@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { StyleSheet, Text, useColorScheme, View, type StyleProp, type ViewStyle } from 'react-native';
 
 import { speciesEmoji, speciesHue } from '@/lib/species';
+import { useSetImage } from '@/lib/wiki-images';
+import type { FigureSet } from '@/types';
 
 type Props = {
   /** Par ordre de priorité : photo perso, photo de la figurine, photo du set. */
@@ -53,3 +55,9 @@ export function FigureThumb({ sources, species, size = 44, style }: Props) {
 const styles = StyleSheet.create({
   placeholder: { alignItems: 'center', justifyContent: 'center' },
 });
+
+/** Vignette d'un set : photo du catalogue ou du wiki, sinon vignette illustrée. */
+export function SetThumb({ set, size, style }: { set: FigureSet; size?: number; style?: StyleProp<ViewStyle> }) {
+  const image = useSetImage(set);
+  return <FigureThumb sources={[image]} species={set.species} size={size} style={style} />;
+}

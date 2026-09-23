@@ -3,7 +3,7 @@ import type { ReactElement } from 'react';
 import { Pressable, SectionList, StyleSheet, View } from 'react-native';
 
 import { FigureRow } from '@/components/figure-row';
-import { FigureThumb } from '@/components/figure-thumb';
+import { SetThumb } from '@/components/figure-thumb';
 import { Icon, Icons } from '@/components/icon';
 import { Progress } from '@/components/progress';
 import { ThemedText } from '@/components/themed-text';
@@ -38,9 +38,7 @@ export function FigureList({ sections, header, empty, detail }: Props) {
         const content = (
           <View style={[styles.header, { backgroundColor: theme.backgroundElement }]}>
             <View style={styles.headerTitle}>
-              {section.thumb ? (
-                <FigureThumb sources={[section.thumb.image]} species={section.thumb.species} size={40} />
-              ) : null}
+              {section.set ? <SetThumb set={section.set} size={40} /> : null}
               <View style={styles.headerText}>
                 <ThemedText type="smallBold" numberOfLines={1}>
                   {section.title}

@@ -15,8 +15,8 @@ export type Section = {
   title: string;
   subtitle?: string;
   href?: { pathname: '/set/[id]'; params: { id: string } };
-  /** Photo et espèce du set, pour la vignette de l'en-tête. */
-  thumb?: { image?: string; species?: string };
+  /** Set affiché en en-tête (regroupement par set). */
+  set?: FigureSet;
   owned: number;
   total: number;
   data: Figure[];
@@ -106,7 +106,7 @@ export function groupBySet(index: CatalogIndex, figures: Figure[], entries: Reco
         .filter(Boolean)
         .join(' · '),
       href: { pathname: '/set/[id]', params: { id: setId } },
-      thumb: { image: set.image, species: set.species },
+      set,
       owned: countOwned(all, entries),
       total: all.length,
       data,

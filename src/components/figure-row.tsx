@@ -8,6 +8,7 @@ import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
 import { useCatalog } from '@/data/catalog';
 import { useTheme } from '@/hooks/use-theme';
+import { useSetImage } from '@/lib/wiki-images';
 import { useCollection } from '@/store/collection';
 import type { Figure } from '@/types';
 
@@ -17,6 +18,7 @@ export const FigureRow = memo(function FigureRow({ figure, detail }: { figure: F
   const toggleOwned = useCollection((s) => s.toggleOwned);
   const toggleWishlist = useCollection((s) => s.toggleWishlist);
   const set = useCatalog().setsById.get(figure.setId);
+  const setImage = useSetImage(set);
 
   return (
     <View style={[styles.row, { borderBottomColor: theme.border }]}>
@@ -28,7 +30,7 @@ export const FigureRow = memo(function FigureRow({ figure, detail }: { figure: F
       <Link href={{ pathname: '/figure/[id]', params: { id: figure.id } }} asChild>
         <Pressable style={styles.main}>
           <FigureThumb
-            sources={[entry?.photoUri, figure.image, set?.image]}
+            sources={[entry?.photoUri, figure.image, setImage]}
             species={figure.species ?? set?.species}
           />
           <View style={styles.text}>
